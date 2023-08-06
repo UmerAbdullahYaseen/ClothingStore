@@ -36,7 +36,7 @@ export const counterSlice = createSlice({
       });
   },
 });
-
+// we will create stripe ayment later
 export const { increment } = counterSlice.actions;
 
 export const selectCount = (state) => state.counter.value;
